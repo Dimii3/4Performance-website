@@ -34,7 +34,7 @@ img {
 html {
 	scroll-behavior: smooth;
 	scroll-padding-top: 80px;
-	font-size: 10px;
+	font-size: 56.25%;
 }
 
 body {
@@ -76,7 +76,7 @@ body {
 
 .wrapper {
 	margin: 0 auto;
-	max-width: 14rem;
+	max-width: 140rem;
 }
 .btn {
 	padding: 1.5rem 6rem;
@@ -290,6 +290,7 @@ body {
 
 .header__heading {
 	font-size: 6.4rem;
+	padding: 0 2rem;
 	transform: translateX(100%);
 	opacity: 0;
 	animation: moveToCenter 1s 0.5s forwards;
