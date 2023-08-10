@@ -1045,6 +1045,7 @@ body {
 	.contact {
 		padding: 8rem 0 0 0;
 	}
+
 	.contact-box__map,
 	.contact-box__form {
 		margin: 1rem auto;
@@ -1170,5 +1171,11 @@ body {
 	.discount__banner::after,
 	.contact::after {
 		width: 80%;
+	}
+
+	.contact-box__map,
+	.contact-box__form {
+		margin: 1rem auto;
+		width: 90%;
 	}
 }
