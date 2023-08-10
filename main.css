@@ -1131,12 +1131,18 @@ body {
 }
 
 @media (max-width: 468px) {
+	.header {
+		background-image: url('/img/bgc-small.jpg');
+	}
+
 	.nav.open .nav__brand {
 		font-size: 3rem;
 	}
+
 	.nav.open .nav__link {
 		font-size: 3rem;
 	}
+
 	.header__heading {
 		font-size: 4rem;
 		padding: 0 2rem;
@@ -1145,10 +1151,12 @@ body {
 	.header__buttons {
 		margin-top: 1.5rem;
 	}
+
 	.header__btn {
 		width: 12.5rem;
 		height: 12.5rem;
 	}
+
 	.header::after,
 	.discount__banner::after,
 	.contact::after {
