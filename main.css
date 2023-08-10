@@ -720,6 +720,12 @@ body {
 	height: 650px;
 }
 
+.contact-box__form,
+.contact-box__map {
+	border-radius: 1rem;
+	overflow: hidden;
+}
+
 .contact-box__form {
 	height: 100%;
 	width: 40%;
@@ -1039,14 +1045,17 @@ body {
 	.contact {
 		padding: 8rem 0 0 0;
 	}
+	.contact-box__map,
+	.contact-box__form {
+		margin: 1rem auto;
+		width: 80%;
+	}
 
 	.contact-box__map {
-		width: 100%;
 		height: 500px;
 	}
 
 	.contact-box__form {
-		width: 100%;
 		height: 50%;
 		border-left: none;
 		border-top: 6px solid var(--color-primary);
